@@ -1,23 +1,41 @@
 # MacClean128k-
 
-**Limpieza profunda para macOS. Sin bloat, sin App Store, sin límites.**
+🍏 **Limpieza profunda para macOS... con estilo retro.**
 
-Descarga la última versión desde [Releases](https://github.com/maarkman90/MacClean128k-releases/releases/latest).
+Revive la **Macintosh 128k** de 1984 directamente en tu Mac moderno. Interfaz pixel-art, tipografía System 1, sonidos clásicos — mientras limpias tu sistema hasta los huesos.
+
+> "Es como si una Mac 128k y un limpiador moderno tuvieran un hijo". — *Los foros*
+
+---
+
+## ¿Qué lo hace diferente?
+
+| ❌ App Store / Modernas | ✅ MacClean128k- |
+|------------------------|------------------|
+| GUI genérica plana | **Interfaz retro System 1** (píxeles, curvas Mac clásicas) |
+| Sandbox (no pueden tocar el sistema) | **Sin Sandbox — acceso total** |
+| Sin personalidad | **Sonidos de arranque y clics de los 80s** |
+| $9.99/mes | **Gratis, MVP en desarrollo** |
+
+---
+
+## Captura
+
+*(Próximamente — mientras tanto, descárgalo y vélo tú mismo)*
 
 ---
 
 ## Guía: Cómo abrir la app (saltar Gatekeeper)
 
-Al ser una app fuera de la App Store, macOS bloquea la apertura por no estar notarizada. Sigue estos pasos:
+Al ser una app fuera de la App Store, macOS la bloquea. Fácil de saltar:
 
-### Método 1 — Click derecho (más fácil)
-1. Descarga el `.dmg`
-2. Haz **click derecho** (o Ctrl + click) sobre el `.dmg` → **Abrir**
+### Método 1 — Click derecho
+1. Descarga el `.dmg` desde [Releases](https://github.com/maarkman90/MacClean128k-releases/releases/latest)
+2. **Click derecho** sobre el `.dmg` → **Abrir**
 3. Arrastra `MacClean128k-` a `Applications`
-4. Haz **click derecho** sobre la app en Applications → **Abrir**
-5. Click en **"Abrir"** en el diálogo (ya no aparecerá más)
+4. **Click derecho** sobre la app → **Abrir** → **"Abrir"**
 
-### Método 2 — Terminal (si el método 1 falla)
+### Método 2 — Terminal
 ```bash
 xattr -cr /Applications/MacClean128k-.app
 ```
@@ -26,32 +44,30 @@ xattr -cr /Applications/MacClean128k-.app
 
 ## Permiso de Acceso al Disco Duro (Full Disk Access)
 
-MacClean128k- necesita **Full Disk Access** para escanear y limpiar archivos en todo el sistema.
+MacClean128k- necesita **Full Disk Access** para escanear todo el sistema.
 
 ### Cómo otorgarlo
-1. Abre **Ajustes del Sistema** → **Privacidad y Seguridad**
-2. Desplázate hasta **Acceso al Disco Duro**
-3. Click en el candado 🔒 (esquina inferior) y autentícate
-4. Activa el switch de **MacClean128k-**
+1. **Ajustes del Sistema** → **Privacidad y Seguridad**
+2. **Acceso al Disco Duro**
+3. 🔒 Desbloquea con tu contraseña
+4. ✅ Activa **MacClean128k-**
 5. Si no aparece, arrastra la app desde Applications a la lista
 
-| Paso | Acción |
-|------|--------|
-| 1 | Ajustes → Privacidad y Seguridad |
-| 2 | Desplázate a **Acceso al Disco Duro** |
-| 3 | 🔓 Desbloquea con tu contraseña |
-| 4 | ✅ Activa MacClean128k- |
-
-> **¿Por qué necesita este permiso?** A diferencia de apps del App Store (restringidas por Sandbox), MacClean128k- accede directamente al sistema de archivos para eliminar basura real: cachés de sistema, logs, DerivedData de Xcode, y restos de apps desinstaladas.
+> **¿Por qué?** Al no tener Sandbox (como sí exige la App Store), podemos acceder a archivos reales del sistema: cachés de sistema, logs de macOS, DerivedData de Xcode, restos de apps desinstaladas. Las apps sandboxed no pueden tocar nada de esto.
 
 ---
 
-## Próximos features
+## Roadmap
+- [x] GUI retro System 1
+- [x] Escaneo de basura con recetas JSON
+- [x] Desinstalador profundo
 - [ ] Actualizaciones automáticas (Sparkle)
-- [ ] Más recetas JSON para tipos de basura
-- [ ] Modo programado (limpieza automática)
+- [ ] Más skins retro (System 6, Platinum, etc.)
+- [ ] Sonidos personalizables
 - [ ] Notarization con Apple
 
 ---
 
-Hecho con ❤️ por [@maarkman90](https://github.com/maarkman90)
+**Descarga la última versión:** https://github.com/maarkman90/MacClean128k-releases/releases/latest
+
+Hecho con nostalgia por [@maarkman90](https://github.com/maarkman90)
