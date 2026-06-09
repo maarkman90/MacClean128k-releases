@@ -68,6 +68,42 @@ MacClean128k- necesita **Full Disk Access** para escanear todo el sistema.
 
 ---
 
+---
+
+## Guía de uso rápido
+
+### Panel principal
+Al abrir la app verás 4 pestañas en la interfaz retro:
+
+| Pestaña | Qué hace |
+|---------|----------|
+| **Dashboard** | Resumen del sistema y espacio liberable |
+| **Performance** | Monitor de CPU, RAM y disco en tiempo real |
+| **Mis Tiliches** | Desinstalador profundo de apps |
+| **Lupa** | Escanea carpetas específicas con recetas JSON |
+
+### Escaneo y limpieza
+1. Ve a **Dashboard** → **Escanear**
+2. Espera a que termine el análisis
+3. Revisa los resultados y desmarca lo que no quieras eliminar
+4. Click en **Limpiar**
+
+### Desinstalar una app
+1. Ve a **Mis Tiliches**
+2. Selecciona la app de la lista
+3. Click en **Desinstalar**
+4. La app y sus archivos huérfanos (cachés, preferencias, soporte) se eliminan
+
+### Modo Lupa (avanzado)
+1. Ve a **Lupa**
+2. Selecciona una carpeta o arrastra una
+3. Escoge una receta JSON (o usa la default)
+4. Click en **Escanear** — te muestra solo los archivos que coinciden con la receta
+
+> 💡 Las recetas JSON definen qué archivos buscar (ej: `*.log`, `*.cache`). Puedes crear las tuyas propias.
+
+---
+
 **Descarga la última versión:** https://github.com/maarkman90/MacClean128k-releases/releases/latest
 
 Hecho con nostalgia por [@maarkman90](https://github.com/maarkman90)
